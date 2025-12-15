@@ -74,7 +74,7 @@ def create_treemap():
                      text_kwargs={'fontsize': 12, 'fontproperties': font_prop})
 
         # 제목 설정 (크기 키우고 패딩 추가)
-        plt.title('상위 10개 업종 비율', fontsize=30, pad=50, fontproperties=font_prop)
+        plt.title('상위 10개 업종 비율', fontsize=50, pad=60, fontproperties=font_prop)
         plt.axis('off')
         plt.tight_layout()
 
