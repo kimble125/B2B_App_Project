@@ -38,28 +38,23 @@ def create_treemap():
         import os
         import matplotlib.font_manager as fm
 
-        def get_font():
+        # 폰트 설정 (Streamlit Cloud 호환 - FontProperties 직접 사용)
+        import os
+        import matplotlib.font_manager as fm
+
+        @st.cache_resource
+        def get_font_prop():
             # 리눅스(Streamlit Cloud) 환경 등에서 한글 폰트가 없을 경우 다운로드
             font_path = "NanumGothic.ttf"
             if not os.path.exists(font_path):
                 import urllib.request
                 url = "https://github.com/google/fonts/raw/main/ofl/nanumgothic/NanumGothic-Regular.ttf"
                 urllib.request.urlretrieve(url, font_path)
-            return font_path
+            
+            # 폰트 프로퍼티 객체 생성
+            return fm.FontProperties(fname=font_path)
 
-        try:
-            # 로컬 Mac 환경
-            plt.rcParams['font.family'] = 'AppleGothic'
-        except:
-            pass
-        
-        # 폰트 파일 직접 로드 (클라우드 환경 대응)
-        try:
-            font_path = get_font()
-            font_prop = fm.FontProperties(fname=font_path)
-            plt.rcParams['font.family'] = font_prop.get_name()
-        except:
-            pass # Fallback
+        font_prop = get_font_prop()
 
         # 데이터 준비
         sizes = top_industries_pct.values
@@ -76,9 +71,9 @@ def create_treemap():
                      label=labels_with_pct,
                      color=colors,
                      alpha=0.8,
-                     text_kwargs={'fontsize': 12})
+                     text_kwargs={'fontsize': 12, 'fontproperties': font_prop})
 
-        plt.title('상위 10개 업종 비율', fontsize=16, pad=20)
+        plt.title('상위 10개 업종 비율', fontsize=16, pad=20, fontproperties=font_prop)
         plt.axis('off')
         plt.tight_layout()
 
