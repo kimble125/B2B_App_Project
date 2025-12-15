@@ -44,11 +44,11 @@ def create_treemap():
 
         @st.cache_resource
         def get_font_prop():
-            # 리눅스(Streamlit Cloud) 환경 등에서 한글 폰트가 없을 경우 다운로드
-            font_path = "NanumGothic.ttf"
+            # 굵은 글씨를 위해 NanumGothic-Bold 다운로드
+            font_path = "NanumGothic-Bold.ttf"
             if not os.path.exists(font_path):
                 import urllib.request
-                url = "https://github.com/google/fonts/raw/main/ofl/nanumgothic/NanumGothic-Regular.ttf"
+                url = "https://github.com/google/fonts/raw/main/ofl/nanumgothic/NanumGothic-Bold.ttf"
                 urllib.request.urlretrieve(url, font_path)
             
             # 폰트 프로퍼티 객체 생성
@@ -73,7 +73,8 @@ def create_treemap():
                      alpha=0.8,
                      text_kwargs={'fontsize': 12, 'fontproperties': font_prop})
 
-        plt.title('상위 10개 업종 비율', fontsize=16, pad=20, fontproperties=font_prop)
+        # 제목 설정 (크기 키우고 패딩 추가)
+        plt.title('상위 10개 업종 비율', fontsize=30, pad=50, fontproperties=font_prop)
         plt.axis('off')
         plt.tight_layout()
 
