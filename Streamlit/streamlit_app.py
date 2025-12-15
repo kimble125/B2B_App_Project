@@ -72,10 +72,10 @@ def create_treemap():
 
         # 제목 폰트 설정 (폰트 크기 강제 적용을 위해 별도 객체 생성)
         title_font_prop = fm.FontProperties(fname="NanumGothic-Bold.ttf")
-        title_font_prop.set_size(80) # 아주 크게 설정
+        title_font_prop.set_size(30) # 본문(12)의 약 2.5배로 설정
 
-        # 제목 설정 (크기 키우고 패딩 추가)
-        plt.title('상위 10개 업종 비율', fontproperties=title_font_prop, pad=80)
+        # 제목 설정 (중앙 정렬 및 적절한 여백)
+        plt.title('상위 10개 업종 비율', fontproperties=title_font_prop, pad=30)
         plt.axis('off')
         plt.tight_layout()
 
