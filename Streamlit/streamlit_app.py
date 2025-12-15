@@ -34,14 +34,11 @@ def create_treemap():
 
         # 시각화
         fig, ax = plt.subplots(figsize=(15, 10))
-        # 폰트 설정 (Streamlit Cloud 호환)
-        import os
-        import matplotlib.font_manager as fm
 
         # 폰트 설정 (Streamlit Cloud 호환 - FontProperties 직접 사용)
         import os
         import matplotlib.font_manager as fm
-
+        
         @st.cache_resource
         def get_font_prop():
             # 굵은 글씨를 위해 NanumGothic-Bold 다운로드
@@ -74,7 +71,7 @@ def create_treemap():
                      text_kwargs={'fontsize': 12, 'fontproperties': font_prop})
 
         # 제목 설정 (크기 키우고 패딩 추가)
-        plt.title('상위 10개 업종 비율', fontsize=50, pad=60, fontproperties=font_prop)
+        plt.title('상위 10개 업종 비율', fontsize=100, pad=80, fontproperties=font_prop)
         plt.axis('off')
         plt.tight_layout()
 
