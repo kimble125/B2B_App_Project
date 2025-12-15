@@ -1,0 +1,784 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -145.7803,
+    "scrollLeft": -3,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "apmuPXp7oOqBEv8jQmPhj",
+      "TVRxNDRyc0-9IuLAZ1hAj"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "apmuPXp7oOqBEv8jQmPhj": {
+        "id": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "기업정보",
+        "comment": "",
+        "columnIds": [
+          "C5SL_DGbltndSHoxV1cFy",
+          "ZbWwbL9-iFhbL4H6jW9qS",
+          "_V0wgHWDMh89vQB-ph8IU",
+          "4OxK7Nrrs6Cn4A-0eb-CH",
+          "4KLOxavitNkqZSj6TJYzv",
+          "wxku2wrXqCGawlP-SV6G3",
+          "u4Gyxkm_yMk98jyyCJ9Hv",
+          "HVJRZa6s0rW48E5MG55sd",
+          "HgoOCZYPj_5lp5FL8L9Rf",
+          "ZFGwtExX-pTB81oapHCbW",
+          "DDfHgJnFLbD6yHjO-jpyi"
+        ],
+        "seqColumnIds": [
+          "C5SL_DGbltndSHoxV1cFy",
+          "ZbWwbL9-iFhbL4H6jW9qS",
+          "_V0wgHWDMh89vQB-ph8IU",
+          "4OxK7Nrrs6Cn4A-0eb-CH",
+          "4KLOxavitNkqZSj6TJYzv",
+          "wxku2wrXqCGawlP-SV6G3",
+          "u4Gyxkm_yMk98jyyCJ9Hv",
+          "HVJRZa6s0rW48E5MG55sd",
+          "HgoOCZYPj_5lp5FL8L9Rf",
+          "ZFGwtExX-pTB81oapHCbW",
+          "DDfHgJnFLbD6yHjO-jpyi"
+        ],
+        "ui": {
+          "x": 46,
+          "y": 68,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1734369319905,
+          "createAt": 1734367103863
+        }
+      },
+      "TVRxNDRyc0-9IuLAZ1hAj": {
+        "id": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "주요정보",
+        "comment": "",
+        "columnIds": [
+          "pcspvzP741P_Jpb9mLQfS",
+          "lQTQSoBcR2g3-xs7X_OHY",
+          "nJ_IayflLw2TxlJ6MSTz1",
+          "3ClvNqumy2_6-z1alb0Ih",
+          "KphFafXwJQWZoecmevg_L",
+          "XqOlpBozElXBLSsqZhJJx",
+          "ga_XrACVKyGK49JhpTkGV",
+          "2yTZXY0CGLUtXAUyK6S8N",
+          "9MqrtphiDI0Fmx5Xii7St",
+          "p9QeNiN1NwZzztT-9zFdP",
+          "F2VfZ7tbF9nVhddKwA6R9"
+        ],
+        "seqColumnIds": [
+          "pcspvzP741P_Jpb9mLQfS",
+          "lQTQSoBcR2g3-xs7X_OHY",
+          "nJ_IayflLw2TxlJ6MSTz1",
+          "3ClvNqumy2_6-z1alb0Ih",
+          "KphFafXwJQWZoecmevg_L",
+          "XqOlpBozElXBLSsqZhJJx",
+          "ga_XrACVKyGK49JhpTkGV",
+          "2yTZXY0CGLUtXAUyK6S8N",
+          "9MqrtphiDI0Fmx5Xii7St",
+          "p9QeNiN1NwZzztT-9zFdP",
+          "F2VfZ7tbF9nVhddKwA6R9"
+        ],
+        "ui": {
+          "x": 41,
+          "y": 382,
+          "zIndex": 38,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1734367839418,
+          "createAt": 1734367210563
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "_V0wgHWDMh89vQB-ph8IU": {
+        "id": "_V0wgHWDMh89vQB-ph8IU",
+        "tableId": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "상장여부",
+        "comment": "증권거래소 상장 여부",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 102,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367142380,
+          "createAt": 1734367113889
+        }
+      },
+      "4OxK7Nrrs6Cn4A-0eb-CH": {
+        "id": "4OxK7Nrrs6Cn4A-0eb-CH",
+        "tableId": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "운영여부",
+        "comment": "운영중, 합병해산, 종료",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 109,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367162339,
+          "createAt": 1734367144057
+        }
+      },
+      "wxku2wrXqCGawlP-SV6G3": {
+        "id": "wxku2wrXqCGawlP-SV6G3",
+        "tableId": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "설립일자",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367171683,
+          "createAt": 1734367168881
+        }
+      },
+      "u4Gyxkm_yMk98jyyCJ9Hv": {
+        "id": "u4Gyxkm_yMk98jyyCJ9Hv",
+        "tableId": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "홈페이지",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367181826,
+          "createAt": 1734367179007
+        }
+      },
+      "HVJRZa6s0rW48E5MG55sd": {
+        "id": "HVJRZa6s0rW48E5MG55sd",
+        "tableId": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "본사 주소",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367200934,
+          "createAt": 1734367187929
+        }
+      },
+      "pcspvzP741P_Jpb9mLQfS": {
+        "id": "pcspvzP741P_Jpb9mLQfS",
+        "tableId": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "자본금",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367224092,
+          "createAt": 1734367220315
+        }
+      },
+      "lQTQSoBcR2g3-xs7X_OHY": {
+        "id": "lQTQSoBcR2g3-xs7X_OHY",
+        "tableId": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "고용인원",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367236332,
+          "createAt": 1734367230126
+        }
+      },
+      "nJ_IayflLw2TxlJ6MSTz1": {
+        "id": "nJ_IayflLw2TxlJ6MSTz1",
+        "tableId": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "누적투자유치금액",
+        "comment": "공개된 투자 유치 금액의 합계",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 85,
+          "widthComment": 140,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367266256,
+          "createAt": 1734367249594
+        }
+      },
+      "3ClvNqumy2_6-z1alb0Ih": {
+        "id": "3ClvNqumy2_6-z1alb0Ih",
+        "tableId": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "투자유치건수",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 64,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367280374,
+          "createAt": 1734367276600
+        }
+      },
+      "KphFafXwJQWZoecmevg_L": {
+        "id": "KphFafXwJQWZoecmevg_L",
+        "tableId": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "연매출",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367286294,
+          "createAt": 1734367284204
+        }
+      },
+      "XqOlpBozElXBLSsqZhJJx": {
+        "id": "XqOlpBozElXBLSsqZhJJx",
+        "tableId": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "기술등급",
+        "comment": "보유한 등록 특허의 평균 기술 등급",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 164,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367329915,
+          "createAt": 1734367293448
+        }
+      },
+      "C5SL_DGbltndSHoxV1cFy": {
+        "id": "C5SL_DGbltndSHoxV1cFy",
+        "tableId": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "기업소개",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367373935,
+          "createAt": 1734367368146
+        }
+      },
+      "ZbWwbL9-iFhbL4H6jW9qS": {
+        "id": "ZbWwbL9-iFhbL4H6jW9qS",
+        "tableId": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "키워드",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367398625,
+          "createAt": 1734367395078
+        }
+      },
+      "4KLOxavitNkqZSj6TJYzv": {
+        "id": "4KLOxavitNkqZSj6TJYzv",
+        "tableId": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "임직원",
+        "comment": "CEO",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367442237,
+          "createAt": 1734367427033
+        }
+      },
+      "ZFGwtExX-pTB81oapHCbW": {
+        "id": "ZFGwtExX-pTB81oapHCbW",
+        "tableId": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "유사기업",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367472923,
+          "createAt": 1734367469617
+        }
+      },
+      "HgoOCZYPj_5lp5FL8L9Rf": {
+        "id": "HgoOCZYPj_5lp5FL8L9Rf",
+        "tableId": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "서비스/제품",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367496996,
+          "createAt": 1734367494088
+        }
+      },
+      "ga_XrACVKyGK49JhpTkGV": {
+        "id": "ga_XrACVKyGK49JhpTkGV",
+        "tableId": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "고유 방문자 수(MUV)",
+        "comment": "이전 6개월 간 기록",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 108,
+          "widthComment": 92,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367569955,
+          "createAt": 1734367525540
+        }
+      },
+      "2yTZXY0CGLUtXAUyK6S8N": {
+        "id": "2yTZXY0CGLUtXAUyK6S8N",
+        "tableId": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "전월대비 성장률",
+        "comment": "이전 6개월 간 변동률",
+        "dataType": "",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 78,
+          "widthComment": 103,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367578964,
+          "createAt": 1734367538655
+        }
+      },
+      "9MqrtphiDI0Fmx5Xii7St": {
+        "id": "9MqrtphiDI0Fmx5Xii7St",
+        "tableId": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "소비자 거래지수",
+        "comment": "이전 6개월 간 최대 판매액이 100일 때 환산",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 78,
+          "widthComment": 210,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734368056762,
+          "createAt": 1734367598156
+        }
+      },
+      "p9QeNiN1NwZzztT-9zFdP": {
+        "id": "p9QeNiN1NwZzztT-9zFdP",
+        "tableId": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "소비자 거래건수",
+        "comment": "이전 6개월 간 유료 서비스/제품 판매건수 ",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 78,
+          "widthComment": 200,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367889948,
+          "createAt": 1734367603441
+        }
+      },
+      "F2VfZ7tbF9nVhddKwA6R9": {
+        "id": "F2VfZ7tbF9nVhddKwA6R9",
+        "tableId": "TVRxNDRyc0-9IuLAZ1hAj",
+        "name": "평균 거래단가",
+        "comment": "이전 6개월 간 유료 서비스/제품 평균 판매가",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 68,
+          "widthComment": 210,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734367843725,
+          "createAt": 1734367607639
+        }
+      },
+      "DDfHgJnFLbD6yHjO-jpyi": {
+        "id": "DDfHgJnFLbD6yHjO-jpyi",
+        "tableId": "apmuPXp7oOqBEv8jQmPhj",
+        "name": "보도자료",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1734369322861,
+          "createAt": 1734369319904
+        }
+      }
+    },
+    "relationshipEntities": {},
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  },
+  "lww": {
+    "apmuPXp7oOqBEv8jQmPhj": [
+      "tableEntities",
+      1734367103858,
+      -1,
+      {
+        "name": 1734367112322
+      }
+    ],
+    "_V0wgHWDMh89vQB-ph8IU": [
+      "tableColumnEntities",
+      1734367113887,
+      -1,
+      {
+        "name": 1734367121042,
+        "comment": 1734367142379
+      }
+    ],
+    "4OxK7Nrrs6Cn4A-0eb-CH": [
+      "tableColumnEntities",
+      1734367144056,
+      -1,
+      {
+        "name": 1734367149682,
+        "comment": 1734367162338
+      }
+    ],
+    "wxku2wrXqCGawlP-SV6G3": [
+      "tableColumnEntities",
+      1734367168879,
+      -1,
+      {
+        "name": 1734367171682
+      }
+    ],
+    "u4Gyxkm_yMk98jyyCJ9Hv": [
+      "tableColumnEntities",
+      1734367179005,
+      -1,
+      {
+        "name": 1734367181826
+      }
+    ],
+    "HVJRZa6s0rW48E5MG55sd": [
+      "tableColumnEntities",
+      1734367187926,
+      -1,
+      {
+        "name": 1734367200934
+      }
+    ],
+    "TVRxNDRyc0-9IuLAZ1hAj": [
+      "tableEntities",
+      1734367210562,
+      -1,
+      {
+        "name": 1734367217269
+      }
+    ],
+    "pcspvzP741P_Jpb9mLQfS": [
+      "tableColumnEntities",
+      1734367220314,
+      -1,
+      {
+        "name": 1734367224091
+      }
+    ],
+    "lQTQSoBcR2g3-xs7X_OHY": [
+      "tableColumnEntities",
+      1734367230123,
+      -1,
+      {
+        "name": 1734367236332
+      }
+    ],
+    "nJ_IayflLw2TxlJ6MSTz1": [
+      "tableColumnEntities",
+      1734367249592,
+      -1,
+      {
+        "name": 1734367252973,
+        "comment": 1734367266255
+      }
+    ],
+    "3ClvNqumy2_6-z1alb0Ih": [
+      "tableColumnEntities",
+      1734367276598,
+      -1,
+      {
+        "name": 1734367280374
+      }
+    ],
+    "KphFafXwJQWZoecmevg_L": [
+      "tableColumnEntities",
+      1734367284203,
+      -1,
+      {
+        "name": 1734367286294
+      }
+    ],
+    "XqOlpBozElXBLSsqZhJJx": [
+      "tableColumnEntities",
+      1734367293446,
+      -1,
+      {
+        "name": 1734367295630,
+        "comment": 1734367329914
+      }
+    ],
+    "C5SL_DGbltndSHoxV1cFy": [
+      "tableColumnEntities",
+      1734367368143,
+      -1,
+      {
+        "name": 1734367373935
+      }
+    ],
+    "ZbWwbL9-iFhbL4H6jW9qS": [
+      "tableColumnEntities",
+      1734367395076,
+      -1,
+      {
+        "name": 1734367398624
+      }
+    ],
+    "4KLOxavitNkqZSj6TJYzv": [
+      "tableColumnEntities",
+      1734367427032,
+      -1,
+      {
+        "name": 1734367434852,
+        "comment": 1734367442235
+      }
+    ],
+    "ZFGwtExX-pTB81oapHCbW": [
+      "tableColumnEntities",
+      1734367469614,
+      -1,
+      {
+        "name": 1734367472922
+      }
+    ],
+    "HgoOCZYPj_5lp5FL8L9Rf": [
+      "tableColumnEntities",
+      1734367494086,
+      -1,
+      {
+        "name": 1734367496995
+      }
+    ],
+    "ga_XrACVKyGK49JhpTkGV": [
+      "tableColumnEntities",
+      1734367525539,
+      -1,
+      {
+        "name": 1734367531821,
+        "comment": 1734367569954
+      }
+    ],
+    "2yTZXY0CGLUtXAUyK6S8N": [
+      "tableColumnEntities",
+      1734367538649,
+      -1,
+      {
+        "name": 1734367574410,
+        "dataType": 1734367574410,
+        "options(notNull)": 1734367574410,
+        "default": 1734367574410,
+        "comment": 1734367578963
+      }
+    ],
+    "9MqrtphiDI0Fmx5Xii7St": [
+      "tableColumnEntities",
+      1734367598154,
+      -1,
+      {
+        "name": 1734367602016,
+        "comment": 1734368056762
+      }
+    ],
+    "p9QeNiN1NwZzztT-9zFdP": [
+      "tableColumnEntities",
+      1734367603440,
+      -1,
+      {
+        "name": 1734367606412,
+        "comment": 1734367889947
+      }
+    ],
+    "F2VfZ7tbF9nVhddKwA6R9": [
+      "tableColumnEntities",
+      1734367607639,
+      -1,
+      {
+        "name": 1734367611271,
+        "comment": 1734367843724
+      }
+    ],
+    "DDfHgJnFLbD6yHjO-jpyi": [
+      "tableColumnEntities",
+      1734369319899,
+      -1,
+      {
+        "name": 1734369322861
+      }
+    ]
+  }
+}
